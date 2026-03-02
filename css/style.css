@@ -1,0 +1,32 @@
+body{
+    background-color: #79c9e5;
+}
+
+h1{
+    color: #272cef;
+    text-align: center;
+    size: 50px;
+}
+
+h2{
+    color: #272cef;
+    text-align: center;
+    size: 35px;
+}
+
+div{
+    background-color: #e25d10;
+    border-radius: 5%;
+    text-align: center;
+    width: 75%;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    size: 25px;
+}
