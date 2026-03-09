@@ -1,25 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #79c9e5;
 }
 
-h1{
-    color: #272cef;
+header{
+    background-color: #e25d10;
     text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    color: #1A2E5A;
     size: 50px;
 }
 
 h2{
-    color: #272cef;
-    text-align: center;
+    color: #1A2E5A;
     size: 35px;
 }
 
-div{
+nav{
+    background-color: #e25d10;
+    text-align: center;
+    z-index: -1;
+    border-radius: 10px;
+    padding: 10px;
+    position: sticky; /*momenteel geen nut maar ingeval dat er veel text is kan het handig zijn.*/
+    top: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+}
+
+/* div{
     background-color: #e25d10;
     border-radius: 5%;
     text-align: center;
     width: 75%;
-}
+} */
 
 p{
     color: white;
@@ -31,6 +59,33 @@ a{
     size: 25px;
 }
 
-img{
+a:hover{
+    cursor: zoom-in;
+}
+
+.keer-terug:hover{
+    cursor: zoom-out;
+}
+
+.actief{
+    color: #1A2E5A;
+}
+
+.side-div{
+    right: 0px;
+    z-index: -2;
+    position: absolute;
+    width: 30%;
+    padding: 30px;
+    gap: 20px;
+}
+
+.hoofdfoto{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+.hond{
     width: 30%;
 }
