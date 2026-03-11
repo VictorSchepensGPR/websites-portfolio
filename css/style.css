@@ -14,13 +14,23 @@ header{
     padding: 10px;
 }
 
-section{
+main{
     background-color: #e25d10;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
     width: 65%;
     margin-top: 20px;
+}
+
+.kolommen{
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.kolom2{
+    flex: 50%;
 }
 
 .in-tekst{
@@ -57,7 +67,17 @@ ul{
     padding: 0;
 }
 
+.lijst-stijl{
+    list-style: disc;
+    position: center;
+}
+
 li{
+    padding: auto;
+    color: white;
+}
+
+.padding-element{
     padding: 10px;
 }
 
