@@ -55,7 +55,7 @@ h3{
 nav{
     background-color: #e25d10;
     text-align: center;
-    z-index: -1;
+    z-index: 10;
     border-radius: 10px;
     padding: 10px;
     position: sticky; /*momenteel geen nut maar ingeval dat er veel text is kan het handig zijn.*/
@@ -65,11 +65,6 @@ nav{
 ul{
     list-style: none;
     padding: 0;
-}
-
-.lijst-stijl{
-    list-style: disc;
-    position: center;
 }
 
 li{
@@ -113,7 +108,7 @@ a:hover{
 
 .side-div{
     right: 0px;
-    z-index: -2;
+    z-index: 5;
     position: absolute;
     width: 30%;
     padding: 30px;
